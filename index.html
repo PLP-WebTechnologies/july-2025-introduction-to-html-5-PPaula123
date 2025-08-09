@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Learn HTML5 semantic structure, web accessibility best practices, and SEO fundamentals with this example page.">
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML, web development">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Web Foundations">
+  <title>HTML5 Accessibility & SEO Basics | Web Foundations</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <h1>HTML5 Accessibility & SEO Basics</h1>
+    <nav role="navigation" aria-label="Main navigation">
+      <h2 class="visually-hidden">Site Navigation</h2>
+      <ul>
+        <li><a href="#introduction" aria-current="page">Introduction</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#seo">SEO Fundamentals</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <article>
+      <section id="introduction" aria-labelledby="intro-heading">
+        <h2 id="intro-heading">Introduction</h2>
+        <p>This page demonstrates how to use semantic HTML5 elements to create accessible and SEO-friendly web content. It is structured for both human users and search engines.</p>
+        <p>Key features include:</p>
+        <ul>
+          <li>Proper document structure with semantic elements</li>
+          <li>Accessibility enhancements for screen readers</li>
+          <li>SEO-optimized metadata and content organization</li>
+        </ul>
+      </section>
+
+      <section id="accessibility" aria-labelledby="accessibility-heading">
+        <h2 id="accessibility-heading">Accessibility</h2>
+        <p>Accessibility ensures that all users, including those using assistive technologies, can navigate and understand your content.</p>
+        
+        <h3>Key Accessibility Practices</h3>
+        <ul>
+          <li>Use landmarks like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code></li>
+          <li>Provide text alternatives for non-text content</li>
+          <li>Use attributes like <code>aria-label</code> and <code>aria-labelledby</code></li>
+          <li>Ensure proper heading hierarchy</li>
+        </ul>
+      </section>
+
+      <section id="seo" aria-labelledby="seo-heading">
+        <h2 id="seo-heading">SEO Fundamentals</h2>
+        <p>Search engine optimization begins with clear structure and meaningful content.</p>
+        
+        <h3>Essential SEO Techniques</h3>
+        <ul>
+          <li>Use heading tags in order (<code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>)</li>
+          <li>Include descriptive metadata (title, description, keywords)</li>
+          <li>Use semantic HTML for better content understanding</li>
+          <li>Write clear, keyword-rich content naturally</li>
+        </ul>
+      </section>
+
+      <section id="conclusion" aria-labelledby="conclusion-heading">
+        <h2 id="conclusion-heading">Conclusion</h2>
+        <p>By combining semantic HTML5, accessibility best practices, and basic SEO techniques, you create web pages that are:</p>
+        <ul>
+          <li>Inclusive to all users</li>
+          <li>Discoverable by search engines</li>
+          <li>Maintainable for developers</li>
+        </ul>
+        <p>This foundation supports better user experiences and improved search visibility.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <h2 class="visually-hidden">Footer Information</h2>
+    <p>&copy; 2025 Web Foundations. All rights reserved.</p>
+    <address>
+      Contact: <a href="mailto:info@webfoundations.example">info@webfoundations.example</a>
+    </address>
+  </footer>
+</body>
+</html>
